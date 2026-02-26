@@ -33,9 +33,9 @@ with coll:
         st.write("La audicion es fundamental para tu interfaz")
     if modo == "tactil":
         st.write("El tacto es fundamental para tu interfaz")
-        
-    st.subheader("Uso de Botones")
-        if st.button('Presiona el botón'):
-            st.write('Gracias por presionar')
-        else:
-            st.write('No has presionado aún')
+
+st.subheader("Botones")
+if st.button('press')
+    st.write('thanks')
+else:
+    st.write('No has presionado el botòn')
