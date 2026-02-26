@@ -34,12 +34,12 @@ with coll:
     if modo == "tactil":
         st.write("El tacto es fundamental para tu interfaz")
         
-               
-    st.subheader("Esta es la segunda columna")
-    modo = st.radio("Que Modalidad es la principal interfaz", ("Visual", "auditiva", "tactil"))
-    if modo == "visual":
-        st.write("la vista es fundamental para tu interfaz") 
-    if modo == "auditiva":
-        st.write("La audicion es fundamental para tu interfaz")
-    if modo == "tactil":
-        st.write("El tacto es fundamental para tu interfaz")
+    st.subheader("Uso de Botones")
+
+if st.button('Presiona el botón'):
+
+else:
+
+st.write('Gracias por presionar')
+
+st.write('No has presionado aún')
