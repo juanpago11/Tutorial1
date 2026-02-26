@@ -1,4 +1,9 @@
 import streamlit as st
+from PIL import image
 
 st.title("Hola de nuevo mundo jaja")
-image=image.open('buho.jpg')
+st.header("En este espacio comienza el nuevo orden mundial")
+st.write("Facilmente el bhuo puede gobernar el mundo")
+image = image.open('buho.jpg')
+st.image(image, caption='EL BUHO')
+
