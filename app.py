@@ -20,5 +20,8 @@ with coll:
     resp = st.checkbox('Estoy de acuerdo')
     if resp:
       st.write('Correcto')
+    resp = st.checkbox('No estoy de acuerdo')
+    if resp:
+        st.write('Incorrecto')
                
     
